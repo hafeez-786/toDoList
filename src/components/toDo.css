@@ -1,0 +1,63 @@
+.padLeft {padding-left: 0px;}
+.noPad {padding-left: 0; padding-right: 0;}
+.ToDo-heading {
+    background-color: #007280;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+}
+.toDo-container {
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    padding: 25px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.toDo-container .form-control:focus,
+.toDo-container .input-group-append .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.toDo-container .input-group-append .btn {
+    background-color:#007280;
+    color: white;
+    border: 1px solid #007280;
+}
+.toDo-container ul {
+    padding-left: 30px;
+}
+p.lineThroughText-outer {
+    position: relative;
+    margin-bottom: 0;
+    color: #000;
+    word-break: break-all;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.crossed-line {
+    text-decoration: line-through;
+}
+.toDo-container .input-group-append .btn:hover {background-color: #00728096;}
+.Icons-block .fa-edit {
+  color: #40a514;
+  cursor: pointer;
+}
+.Icons-block .fa-trash-alt {
+    color: #f00;
+    cursor: pointer;
+}
+
+.footerBtn {
+    margin-left: 4px;
+}
+
+.footerBtn:disabled {
+    background-color: green;
+    color: #fff;
+}
+
+@media(max-width: 576px) {
+    .toDo-container {
+        margin: 10px;
+    }
+}
